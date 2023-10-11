@@ -55,3 +55,49 @@ A software developer with almost 1.5 years of commercial experience, technical b
 
 [Demo](https://tsekhmister.github.io/react_food/)
 [Git Hub Code](https://github.com/Tsekhmister/react_food)
+
+### Deputy store manager, NCS DELVI
+
+##### Technologies:
+
+- 1C Enterprise
+- MS Office.
+
+##### Responsibilities:
+
+- Training new employees
+- Work in 1C Enterprise with product suppliers
+
+### PC operator, DB GROUP
+
+##### Technologies:
+
+- 1C Enterprise
+- MS Office.
+
+##### Responsibilities:
+
+- Work in 1C Enterprise with product suppliers
+- Keeping records of the database
+- Registration, returns, inventories, analytics, pricing
+
+## EDUCATION
+
+#### Kharkiv National Academy of Municipal Economy Electrical power supply systems, master's degree
+
+### ADDITIONAL EDUCATION
+
+- The Complete JavaScript Course 2023: From Zero to Expert (Udemy)
+- FreeCodeCamp (HTML, CSS, JavaScript)
+- Learn.javascript.ru (JavaScript)
+- Reactjs.org
+- CodeWars [ 100+ Kata Completed ]
+- Learn to Program in Javascript: Beginner to Pro. Javascript Essentials. Responsive Web & Mobile Development in HTML, CSS & Javascript (Udemy)
+- Book: You Don’t Know JS - Kyle Simpson
+
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+
+## ACHIEVEMENTS
+
+- Solved 100 + katas on [Coodewars](https://www.codewars.com/users/Tsekhmister)
+- Second place in the All-Ukrainian competition of scientific works
