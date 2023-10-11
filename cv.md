@@ -4,9 +4,9 @@
 
 ## CONTACTS
 
-+38 093 729 44 78
-Telegram: [Sergii_Tsekhmister](https://t.me/Sergii_Tsekhmister)
-[Email](serhiitsekhmister@gmail.com) | [LinkedIn](https://www.linkedin.com/in/serhii-tsekhmister-2b45481a8/) | [GitHub](https://github.com/Tsekhmister)
++38 093 729 44 78\
+Telegram: [Sergii_Tsekhmister](https://t.me/Sergii_Tsekhmister)\
+[Email](serhiitsekhmister@gmail.com) | [LinkedIn](https://www.linkedin.com/in/serhii-tsekhmister-2b45481a8/) | [GitHub](https://github.com/Tsekhmister)\
 Kharkiv, Ukraine (ready to work remotely)
 
 SUMMARY
