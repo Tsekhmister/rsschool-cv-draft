@@ -2,6 +2,13 @@
 
 ### FRONTEND DEVELOPER
 
+## CONTACTS
+
++38 093 729 44 78
+Telegram: [Sergii_Tsekhmister](https://t.me/Sergii_Tsekhmister)
+[Email](serhiitsekhmister@gmail.com) | [LinkedIn](https://www.linkedin.com/in/serhii-tsekhmister-2b45481a8/) | [GitHub](https://github.com/Tsekhmister)
+Kharkiv, Ukraine (ready to work remotely)
+
 SUMMARY
 
 A software developer with almost 1.5 years of commercial experience, technical background, and good skills at Frontend is looking for new professional opportunities. I have gained experience with JavaScript, Typescript, React, AEM, HTML, CSS, and preprocessors. I am also interested in learning Vue/Angular/React Native. I am a responsible person who constantly evaluates and improves my skills and abilities for professional growth in web development.
