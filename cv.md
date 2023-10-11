@@ -102,8 +102,6 @@ A software developer with almost 1.5 years of commercial experience, technical b
 - Learn to Program in Javascript: Beginner to Pro. Javascript Essentials. Responsive Web & Mobile Development in HTML, CSS & Javascript (Udemy)
 - Book: You Don’t Know JS - Kyle Simpson
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
 ## ACHIEVEMENTS
 
 - Solved 100 + katas on [Coodewars](https://www.codewars.com/users/Tsekhmister)
