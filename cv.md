@@ -38,3 +38,20 @@ A software developer with almost 1.5 years of commercial experience, technical b
 #### Projects I've worked on:
 
 [Network of fitness clubs BLOK](https://www.bloklondon.com/) | [Online casino - Lance](https://www.lancebetting.com/home#/) | [Time and attendance system - Iterius](https://iterius.com/home)
+
+## Some of my pet projects
+
+#### Tailwind CSS - In The Dark
+
+[Demo](https://tsekhmister.github.io/InTheDark/)
+[Git Hub Code](https://github.com/Tsekhmister/InTheDark)
+
+#### Landing page for Design Agency
+
+[Demo](https://tsekhmister.github.io/design-agency/)
+[Git Hub Code](https://github.com/Tsekhmister/design-agency)
+
+#### React - Food Showcase
+
+[Demo](https://tsekhmister.github.io/react_food/)
+[Git Hub Code](https://github.com/Tsekhmister/react_food)
