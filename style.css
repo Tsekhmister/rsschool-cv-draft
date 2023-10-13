@@ -1,0 +1,304 @@
+/* Define custom color variables for the theme */
+:root {
+  --main-color: #233142;         /* Main text color */
+  --secondary-color: #455d7a;    /* Secondary text color */
+  --accent-color: blue;          /* Accent color */
+  --hover-color: blueviolet;     /* Color on hover */
+  --background-color: #f2ffff;  /* Background color */
+  --sidebar-color: #e0ebeb;     /* Sidebar background color */
+  --footer-color: #455d7a;      /* Footer background color */
+  --text-color: #233142;        /* Default text color */
+  --text-font-size: 13px;       /* Default text font size */
+  --link-color: var(--accent-color);     /* Default link color */
+  --link-hover-color: var(--hover-color); /* Link color on hover */
+}
+
+/* Apply common styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+/* Define global styles for paragraphs */
+p {
+  margin-bottom: 10px;
+  font-size: var(--text-font-size);
+}
+
+/* Define a wrapper for the page content */
+.wrapper {
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/* Define layout styles for the main content area */
+/* Main content area should be displayed as a flex container */
+main {
+  display: flex;
+}
+/* On screens smaller than 600px, change the flex direction to column */
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+/* Define styles for the left side of the main content */
+.left {
+  flex: 5;
+  width: 100px;
+  background-color: var(--background-color);
+  padding: 20px 20px 0 20px;
+  z-index: 1;
+  min-width: 280px;
+}
+/* Adjust the width for smaller screens */
+@media only screen and (max-width: 600px) {
+  .left {
+    width: 90%;
+  }
+}
+
+/* Define styles for the right side of the main content */
+.right {
+  flex: 2;
+  min-width: 280px;
+  background-color: var(--sidebar-color);
+  padding: 20px 20px 0 20px;
+}
+
+/* Right section styles */
+.right-section {
+  margin-bottom: 10px;
+}
+.right-section h3 {
+  margin-bottom: 10px;
+}
+
+/* Define styles for section titles */
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.title-icon {
+  width: 30px;
+  height: 30px;
+}
+.section-title {
+  color: var(--secondary-color);
+}
+
+/* Styles for the Name and Role section */
+.name-and-role {
+  border-bottom: 2px solid var(--secondary-color);
+  margin-bottom: 20px;
+}
+.name-and-role-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.name-and-role-subtitle {
+  color: var(--secondary-color);
+  line-height: 24px;
+}
+
+/* Styles for the Summary section */
+.summary {
+  margin-bottom: 15px;
+}
+.summary-text {
+  text-align: justify;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+/* Styles for the Experience section */
+.experience-main-content-wrapper {
+  padding-left: 20px;
+}
+.experience-subtitle {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.experience-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.experience-list li:first-child {
+  padding-left: 0; 
+}
+.experience-list li:not(:first-child) {
+  margin-left: 10px;
+  list-style: square;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects-list {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.projects-list-item-title {
+  margin-bottom: 5px;
+}
+.projects-list li a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+projects-list li a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Styles for the Education section */
+.education-subtitle,
+.education-subtitle-text {
+  margin-left: 20px;
+}
+.education-list {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.education-list li {
+  margin-bottom: 3px;
+}
+.education-list li a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+}
+.education-list li a:hover {
+  color: var(--link-hover-color);
+}
+
+/* List Styles */
+.list {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.list li {
+  margin-bottom: 4px;
+}
+.list li a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+}
+.list li a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Right Section Styles */
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7b4397; 
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* Styles for the Pet Projects Links section */
+.links-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+.links-item-right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Footer Styles */
+footer {
+  padding: 0 20px;
+  background-color: var(--footer-color);
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.footer-list li {
+  margin-bottom: 0;
+  color: white;
+}
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+.footer-list li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.school-link:hover {
+  border-bottom: 1px solid transparent;
+}
+.img-school {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease-in;
+  transform: scale(1);
+}
+.img-school:hover {
+  transform: scale(1.3);
+}
+
+.additional-education-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.education-list {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.links-list li a {
+  font-size: 14px;
+}
