@@ -28,7 +28,7 @@ A software developer with almost 1.5 years of commercial experience, technical b
 
 #### Frontend Developer, SMISS Ltd (06/2022 – 10/2023)
 
-##### Technologies:
+##### Technologies
 
 - JavaScript, React, Redux, Typescript, Node.js, Webpack, Docker, HTML, CSS, SASS, BEM, UI Kit, AEM, Jira
 
